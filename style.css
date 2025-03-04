@@ -1,0 +1,104 @@
+body{
+    background-color: #0a2532;
+    color: #ddd;
+    font-family: courier;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+#grid{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid tr td{
+    border: 1px solid #fff;
+    background-color: #999;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#grid tr td.active{
+    background-color: #333;
+}
+
+#grid tr td.mine{
+    background-color: #e00101;
+}
+
+button{
+    margin: 12px 0;
+    padding: 4px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#scoreBoard {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#grid {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#grid td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #aaa;
+    border: 1px solid #444;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#grid td.revealed {
+    background-color: #ddd;
+    color: #111;
+}
+
+#grid td.mine {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
